@@ -1,0 +1,27 @@
+body {
+    background: #666;
+}
+.content {
+    margin: 0 auto;
+	min-height: 1em;
+	background: #37393C;
+    color: #ddd;
+	padding: 10px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 4px;
+    outline-color: #aaa;
+    font-size: 2.5vh;
+}
+@media screen and (max-width: 1000px)
+{
+    .content {
+        font-size: 4vh;
+    }
+    nav {
+        display: none;
+    }
+    .container {
+        padding: 0;
+    }
+}

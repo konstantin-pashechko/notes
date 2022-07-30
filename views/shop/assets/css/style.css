@@ -1,0 +1,68 @@
+body {
+	background: #777;
+}
+/* nav section */
+.button {
+	display: inline-block;
+	color:#9d9d9d;
+	padding: 5px;
+	background-color: #222;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.button:hover {
+	color: #fff;
+}
+.button:active {
+	color: red;
+}
+.button::selection {
+	text-decoration: none;
+}
+/* products section */
+.shop-container {
+	font-size: 150%;
+}
+.created {
+	padding-top: 5px;
+	color: green;
+}
+.created span {
+	color: black;
+}
+
+.created a:hover, .product a:hover {
+	color: #fff;
+}
+.shopnav .active {
+	color: #fff;
+	font-weight: bold;
+} 
+.report {
+	display: inline-block;
+	border-bottom: 2px solid black;
+}
+
+form {
+	width: 20%;
+	margin: 100px auto;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 10px 40px 30px;
+}
+
+.submit {
+	width: 100%;
+	font-size: 100%;
+}
+
+form .checkbox {
+	cursor: pointer;
+}
+form .checkbox p input {
+	cursor: pointer;
+}
+form .checkbox p span::selection {
+	text-decoration: none;
+}

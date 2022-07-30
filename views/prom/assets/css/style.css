@@ -1,0 +1,22 @@
+body {
+	background: url(/views/images/prom.png) 100% 100% no-repeat;
+	background-size: cover;
+}
+.button {
+	display: inline-block;
+	color:#9d9d9d;
+	padding: 5px;
+	background-color: #222;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.button:hover {
+	color: #fff;
+}
+.button:active {
+	color: red;
+}
+.button::selection {
+	text-decoration: none;
+}

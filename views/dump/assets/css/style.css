@@ -1,0 +1,36 @@
+p {
+	font-weight: bold; 
+}
+a:hover {
+	cursor: pointer;
+	color: #DE6A73;
+}
+body {
+	background: #282C34;
+}
+.customer {
+	width: 600px;
+	position: absolute;
+	top: 100px;
+	right: 50px;
+	border-radius: 4px;
+	background: #282C34;
+	padding-left: 50px;
+	color: #fff;
+}
+.customer .date {
+	color: #ABB2BF;
+	font-weight: bold;
+}
+.customer .total {
+	color: #98C379;
+	font-weight: bold;
+}
+.customer .name {
+	color: #D19A66;
+}
+.show {
+	color: #DE6A72;
+	text-decoration: underline;
+}
+
